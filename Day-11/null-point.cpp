@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int *p = nullptr;
+    if(p == nullptr)
+    cout << "pointer is null";
+    return 0;
+}
